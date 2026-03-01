@@ -1,5 +1,5 @@
 pipeline{
-  agent Node One
+  agent any
 stages {
   stage ('Git Cloning') {
     steps {
